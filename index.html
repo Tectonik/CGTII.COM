@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CGTII - Care-givers Training/Internship Institute</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e6e7f3;
+    margin: 0;
+    padding: 0;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 0.75rem;
+  }
+}
+
+header {
+  background-image: linear-gradient(to right, #e0e4ef, #f7f7f7);
+    color: #fff;
+    padding: 0.9375rem 0;
+    text-align: center;
+}
+
+.little {
+  margin-bottom: -1.25rem;
+  color: blue;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+ .container {
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: large;
+  padding: 0.3125rem;
+  margin-bottom: -3.125rem;
+ }
+
+ .owerri {
+  color: #0358e2;
+  font-size: 5rem;
+  text-shadow: 0.3125rem 0.125rem 0.625rem #00000038;
+  margin-top: -2rem;
+ }
+/*
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 25px;
+    font-size: larger;
+}
+*/
+
+.carousel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 1.5625rem;
+  background-color: #f7f7f7;
+  border-radius: 0.625rem;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  margin-bottom: -2.1875rem;
+}
+
+
+/*
+.carousel-item {
+ /* background-color: #97cb89; */
+  /*padding: 0px;
+  position: relative;
+  height: 370px;
+  
+}
+
+.carousel-caption {
+  /*position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #ffffff;
+  background-image: linear-gradient(to top, #000000f3, #00000011, #0000001b, #0b0b0b00);
+  padding: 5px;
+  padding-top: 89px;
+  width: 340.4px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+ /* Center the caption */
+  /*margin-block-start: 28px;
+  border-radius: 10px;
+}
+*/
+
+.carousel-caption h3 {
+  text-align: center;
+  position: relative;
+  bottom: -9.375rem;
+}
+
+
+.carousel img {
+  width: 37.5rem;
+  height: 25rem;
+}
+
+@media (max-width: 768px) {
+ .carousel img {
+    width: 25rem;
+    height: 15.625rem;
+  }
+}
+
+@media (max-width: 480px) {
+ .carousel img {
+    width: 18.75rem;
+    height: 12.5rem;
+  }
+}
+
+.carousel img {
+  object-fit: cover;
+  margin: 0.625rem;
+  border-radius: 0.625rem;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.carousel img.scaled {
+  transform: scale(1.2);
+}
+
+.note {
+  background-image: linear-gradient(to bottom, #0358e2, #062dab), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  background-size: 100% 100%, 100% 100%;
+  background-position: 0 0, 0 0;
+  box-shadow: 0.625rem 0.625rem 0.9375rem #041f7794, inset 0 0 10px rgba(255, 255, 255, 0.5);
+  border-radius: 0.625rem;
+  padding: 2.8125rem;
+  margin: 3.75rem;
+  margin-bottom: -0.065rem;
+}
+
+.note p {
+  font-size: 3.3ch;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding: 1.25rem;
+  text-align: center;
+  margin-bottom: -2.1875;
+  margin-top: -1.25rem;
+}
+
+.note h3 {
+  text-align: center;
+  font-size: 4ch;
+  text-transform: uppercase;
+  font-weight: 1000;
+  color: #f7e9e9;
+  margin-bottom: -1.25rem;
+}
+
+.section-1 {
+  background-image: linear-gradient(to right, #e0e4ef, #f7f7f7);
+    padding: 1.25rem;
+    margin: 1.25rem;
+    border-radius: 0.3125rem;
+    box-shadow: 0.3125rem 0.3125rem 0.5rem rgba(0, 0, 0, 0.116);
+}
+
+.section-1 h2 {
+    font-size: 2.1875rem;
+    color: #050505;
+    margin-bottom: -1.25rem;
+}
+
+.section-1 h4 {
+    font-size: 1.125rem;
+}
+
+.section-1 p {
+    font-size: 0.9375rem;
+}
+
+.section-1 label {
+    display: block;
+    margin-bottom: 0.3125rem;
+}
+
+.email1 p {
+font-size: 0.75rem;
+margin-top: -1.25rem;
+}
+
+.phone1 p,
+.phone2 p,
+.name1 p,
+.gender p,
+.address p, 
+.city p, 
+.state p {
+font-size: 0.75rem;
+margin-top: -1.25rem;
+}
+
+.swipe p {
+    margin-top: -02.5rem;
+  text-align: center;
+}
+
+.swipe1 p {
+  margin-top: 0.1625rem;
+  text-align: center;
+ 
+}
+
+.swipe p,
+.swipe1 p {
+  font-size: 0.9375rem;
+}
+
+@media (max-width: 768px) {
+ .swipe p,
+ .swipe1 p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+ .swipe p,
+ .swipe1 p {
+    font-size: 0.75rem;
+  }
+}
+.section-1 input,
+.section-1 select,
+.section-1 textarea {
+    width: 100%;
+    padding: 0.625rem;
+    border: 0.0625rem solid #c8d7f5;
+    border-radius: 0.3125rem;
+    box-sizing: border-box;
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.625rem;
+}
+
+.section-1 button {
+    background-color: #7a2e2e;
+    color: #fff;
+    padding: 0.625rem 1.25rem;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+}
+
+.section-1 button:hover {
+    background-color: #444;
+}
+
+.section-2 {
+  background-image: linear-gradient(55deg, #83abfc, #bdd2fc);
+    padding: 1.25rem;
+    margin: 1.25rem;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+}
+
+.section-22 {
+  background-image: linear-gradient(to right, #e0e4ef, #f7f7f7);
+    padding: 1.25rem;
+    margin: 0.625rem;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.2);
+}
+
+.section-2 input,
+.section-2 select,
+.section-2 textarea {
+    width: 100%;
+    padding: 0.625rem;
+    border: 0.0625rem solid #c8d7f5;
+    border-radius: 0.3125rem;
+    box-sizing: border-box;
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.625rem;
+}
+
+.section-2 h4 {
+    font-size: 1.125rem;
+}
+
+.section-3 {
+  background-image: linear-gradient(55deg, #83abfc, #bdd2fc);
+  color: #000000;
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
+  box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.2);
+}
+
+
+.section-32 {
+  background-image: linear-gradient(to right, #e0e4ef, #f7f7f7);
+  color: #000000;
+  padding: 3.125rem;
+  margin: 1.25rem;
+  border-radius: 0.3125rem;
+  box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.2);
+}
+
+.hostel-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-3 h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    /*text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.116);*/
+    color: #000000;
+    margin-bottom: -0.625rem;
+    margin-block-start: 1.875rem;
+}
+
+.hostel-input {
+  width: 100%;
+  margin-bottom: 1.25rem;
+
+}
+
+.hostel-input label {
+  display: block;
+  margin-bottom: 0.3125rem;
+}
+
+.hostel-input input,
+.hostel-input select,
+.hostel-input textarea {
+  width: 100%;
+  padding: 0.625rem;
+  border: 0.0625rem solid #c8d7f5;
+  border-radius: 0.3125rem;
+  box-sizing: border-box;
+  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.625rem;
+}
+
+
+.carousel-1 {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  background-image: linear-gradient(to right, #e0e4ef, #f7f7f7);
+  -webkit-overflow-scrolling: touch;
+  padding: 1.25rem;
+  margin-top: 2%;
+  margin-left: -1.25rem;
+  margin-bottom: -1.875rem;
+  margin-right: -0.625rem;
+}
+
+.carousel-1 img {
+  width: 25rem;
+  height: 15.625rem;
+  object-fit: cover;
+  margin: 0.625rem;
+  border-radius: 0.625rem;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.carousel-1 img.scaled {
+  transform: scale(1.2);
+}
+
+
+.payment {
+  background-image: linear-gradient(to right, #e0e4ef, #f7f7f7);
+    padding: 1.25rem;
+    margin: 1.25rem;
+    border-radius: 0.3125rem;
+    box-shadow: 0.3125rem 0.3125rem 0.5rem rgba(0, 0, 0, 0.116);
+}
+
+.payment h3 {
+    font-size: 3.5625rem;
+    text-align: center;
+    color: #2266ee;
+    margin-bottom: -0.625rem;
+    margin-block-start: 1.875rem;
+}
+
+.payment p {
+    font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.payment ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.payment ul li {
+    margin-bottom: 0.3125rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.header5 h4 {
+    font-weight: 790;
+    border-radius: 0.3125rem;
+    background-image: linear-gradient(to right, #c8d7f5, #f7f7f7);
+    box-shadow: 0.3125rem 0.3125rem 0.3125rem #05050517;
+    padding-inline-start: 0.9375rem;
+    padding: 0.9375rem;
+    width: 12.5rem;
+    text-align: left;
+    
+
+}
+
+.installl {
+    margin-block-start: 3.125rem;
+    margin-block-end: 3.125rem;
+    border-radius: 0.375rem;
+}
+
+.install li {
+    line-height: 1.5;
+    list-style-type: disc;
+    margin: 1.5625rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.inst li {
+    line-height: 1.5;
+    list-style-type: disc;
+    margin: 1.5625rem;
+    font-weight: 100;
+    
+}
+
+.list li {
+   font-weight: bold;
+}
+
+.pay {
+    margin-block-start: -3.125rem;
+    line-height: 1.5;
+    color: #000000;
+    font-weight: bolder;
+    padding: 1.5625rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.account-number {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625rem;
+  margin-top: 0.625rem;
+}
+
+.copy-icon {
+  margin-left: 0.625rem;
+  cursor: pointer;
+}
+
+.upload {
+    display: block;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #000000;
+    background-image: linear-gradient(to right, #c8d7f5, #f7f7f7);
+    border: 0.125rem solid #121212;
+    box-shadow: 0.3125rem 0.3125rem 0.3125rem #05050517;
+    border-radius: 0.3125rem;
+    padding: 0.625rem;
+    margin-bottom: 0.625rem;
+    cursor: pointer;
+}
+
+.button-content {
+  margin-inline-start: 1.25rem;
+}
+
+button {
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  border: none;
+  border-radius: 0.3125rem;
+  background-color: #3645f0;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 0.625rem;
+  transition: background-color 0.5s;
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+button:hover {
+  background-color: #0717c9;
+}
+
+button#draft-button {
+  background-color: #fa3a30;
+}
+
+button#draft-button:hover {
+  background-color: #eb0202;
+}
+
+.whatsapp {
+  margin-top: -3.125rem;
+  padding: 1.5625rem;
+  margin-bottom: -1.875rem;
+}
+
+.whatsapp h5 a {
+  text-decoration: none;
+  color: black;
+}
+
+.whatsapp h5 a:hover {
+  color: #0358e2;
+}
+
+.terms {
+  padding: 1.5625rem;
+  margin-top: -3.125rem;
+}
+
+.click {
+  font-size: 0.3125rem;
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem 0;
+  position: relative;
+  z-index: 100;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 120rem;
+  padding: 0 2rem;
+}
+
+.footer-column {
+  flex: 1 1 25%;
+  margin-bottom: 2rem;
+}
+
+.footer-column h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-column a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #ccc;
+}
+
+.footer-copyright {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-copyright p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  margin: 0 0.5rem;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .footer-column {
+    flex: 1 1 100%;
+  }
+}
+
+.lead-sponsor h5 {
+     color: #3f89ff;
+     font-size: 3ch;
+     margin-bottom: -1.25rem;
+}
+    </style>
+    <body>
+        <header>
+            <!--<nav>
+            
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#home">ABOUT US</a></li>
+                    <li><a href="#home">CONTACT US</a></li>
+                </ul>
+            </nav>-->
+            <div class="container">
+              <h1>Caregivers Training/Internship Institute</h1>
+               <h1 class="owerri">Owerri</h1>
+              </div>
+        </header>
+
+        <div class="carousel">
+            <img src="care.jpg" alt="flyer">
+
+            <img src="care2.jpg" alt="flyer">
+            <img src="CGTII4.jpg" alt="flyer">
+            <img src="CGTII1.jpg" alt="flyer">
+            <img src="CGTII3.jpg" alt="flyer">
+            <img src="CGTII2.jpg" alt="flyer">
+            <img src="CGTII5.jpg" alt="flyer">
+            <img src="CGTII9.jpg" alt="flyer">
+            <img src="CGTII7.jpg" alt="flyer">
+            <img src="CGTII6.jpg" alt="flyer">
+            <img src="CGTII8.jpg" alt="flyer">
+          </div>
+          <div class="swipe1">
+            <P>swipe left and right to view</P>
+          </div>
+
+          <div class="note">
+          <p>The Caregivers Training/Internship Institute program is a 
+            4-month intensive training program.</p>
+             <h3>The maximum quota for 
+            enrollment is 50 students per session.</h3>
+  </div>
+
+        <main>
+            <section class="section-1">
+                <div class="form-head">
+            <h2 class="header1">Care-givers Training/Internship Institute</h2> <h6 class="little">a Subsidiary of LITTLEWOOD RECRUITMENT SERVICES</h6>
+            <h2 class="2"> ADMISSION FORM </h2>
+            <P class="header-down">enter your informations below</P>
+                </div>
+        <form id="Form" action="https://formspree.io/f/mzbnwbkv"
+        method="POST" method="post" name="upload" ><!--[for formspree to upload files ]enctype="multipart/form-data"-->
+            <div class="name1">
+                <h4>NAME</h4>
+                <P>Put in your full name</P>
+        <label for="name1"></label>
+        <input type="text" id="name1" name="Full name" pattern="[a-zA-Z\s]+" placeholder="Enter your full name" required>
+    </div>
+
+        <div class="gender">
+            <h4>GENDER</h4>
+            <P>Put in your gender</P>
+        <label for="gender"></label>
+        <select id="gender" name="gender" required>
+            <option value="">select</option>
+            <option value="male">MALE</option>
+            <option value="female">FEMALE</option>
+        </select>
+    </div>
+
+        <!--<div class="date">
+            <h4>DATE OF BIRTH</h4>
+            <label for="date-of-birth">Date of Birth:</label>
+            <input type="date" id="date-of-birth" name="date-of-birth" max="<%= getMaxDateOfBirth() %>" required>
+    </div>-->
+
+         <div class="email1">
+            <h4>EMAIL</h4>
+            <P>After submiting this form a copy of it will be forwarded to this email address</P>
+            <label>
+                <input type="email" id="email" name="Email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                placeholder="Enter your email" required >
+              </label>
+         </div>
+        
+         <div class="phone1">
+             <h4>PHONE NUMBER</h4>
+             <P>Add a functioning whatsapp number</P>
+         <label for="phone1"></label>
+        <input type="tel" id="phone1" name="Mobile number" placeholder="Enter your phone number" required>
+        </div>
+
+        <div class="status">
+            <h4>MARITAL STATUS</h4>
+        <label for="status"></label>
+        <select id="status" name="Marital status" required>
+            <option value="">Select your marital stauts</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="separated">leagaly separated</option>
+            <option value="widow">Widow</option>
+            <option value="widower">Widower</option>
+        </select>
+        </div>
+
+
+        <div class="address">
+            <h4>ADDRESS</h4>
+            <P>Put in your residential address</P>
+        <label for="street"></label>
+        <input type="text" id="street" name="Address" placeholder="Enter your address" required>
+        </div>
+
+        <div class="city">
+            <h4>CITY</h4>
+            <P>Put in your city of origin</P>
+        <label for="city"></label>
+        <input type="text" id="city" name="City" placeholder="Enter your city" required>
+        </div>
+
+        <div class="state">
+            <h4>STATE</h4>
+            <P>Put in your state of origin</P>
+        <label for="state"></label>
+        <input type="text" id="state" name="State of origin" placeholder="Enter your state" required>
+        </div>
+    </section>
+
+        <section class="section-2">
+          <section class="section-22">
+        <div class="emergency">
+            <h4>EMERGENCY CONTACT NAME</h4>
+        <label for="name2"></label>
+        <input type="text" id="name2" name="Emergency contact name" placeholder="Enter the name of someone we can contact in case of emergency " required>
+        </div>
+        
+        <div class="relationship">
+            <h4>RELATIONSHIP</h4>
+        <label for="relationship"></label>
+        <select id="relationship" name="Relationship" required>
+            <option value="">select</option>
+            <option value="father">FATHER</option>
+            <option value="mother">MOTHER</option>
+            <option value="brother">BROTHER</option>
+            <option value="sister">SISTER</option>
+            <option value="husband">HUSBAND</option>
+            <option value="wife">WIFE</option>
+            <option value="children">CHILDREN</option>
+            <option value="friend">FRIEND</option>
+        </select>
+        </div>
+        
+        <!--<div class="email">
+            <h4>EMAIL</h4>
+            <label>
+                Your email:
+                <input type="email" name="email" >
+              </label>
+        </div>-->
+
+        <div class="phone2">
+            <h4>PHONE NUMBER</h4>
+
+        <label for="phone2"></label>
+        <input type="tel" id="phone2" name="Emergency number" placeholder="Enter the person's phone numberss" required>
+        </div>
+    </section>
+    </section>
+    
+        <section class="payment">
+            <h3 class="header2">PAYMENT</h3>
+            <div id="school">
+                <h2 class="header3">School payment</h2>
+                <p>we have made it easier for school fees payment as we have considered some of our incoming students.
+
+                 <div class="installl">
+                    <ul class="install"><h1>The total fee for the training Program is N255,000 broken down into:</h1>
+
+<li>Registration Fee: [N5,000] (non-refundable, includes application processing and enrollment)</li>
+<li>Tuition Fee: [N200,000] (covering theoretical and practical training, materials, and simulation exercises)</li>
+<li>Exam Fee: [N50,000] (covering final examination, certification and licensure).</li>
+
+</ul>
+</div>
+
+                </p>
+                <h4 class="header3">We offer flexible payment options to suit your financial needs. You can choose from any of these two payment patterns:
+                </h4>
+                <p class="click" 
+                > click the arrow</p>
+                <ul class="list">
+                    <li><span>&#x25BC;</span>FULL PAYMENT</li>
+                    <span class="header5 hidden"><h4>Pay the full tuition fee at the beginning of the training program.</h4></span>
+                    
+                    <li><span>&#x25BC;</span>INSTALLMENTAL PAYMENT</li>
+                    <span class="header5 hidden"><h4>Pay the tuition fee in two installments:</h4>
+                        <ul class="install">
+                            <li>First installment: N127,500 (due upon registration)</li>
+                            <li>Second installment: N127,500 (due 40 days after initial payment).</li>
+    
+                        </ul>
+                    </span>
+
+
+                    <div class="installl">
+                   <ul class="inst">
+
+                    <h2>Additional Information</h2>
+
+                    <li>A late payment fee of N10,000 per month will be charged on overdue payments</li>
+                    <li>All payments must be made before the start of the training program.</li>
+                    <li>Please contact our finance office for more information or to discuss alternative payment arrangements.</li>
+                    
+
+                   </ul>
+                   </div>
+
+                  </ul>
+
+
+                  <div class="installl">
+                   <ul class="install">
+
+                    <h2>Payment Methods</h2>
+ 
+                 <li>Cash payment at the finance office.</li>
+                  <li>Bank transfer to the Institute's official bank account.</li>
+
+                   </ul>
+                   </div>
+
+                   <div class="pay">
+                    <span>Payments are to be made into this account:</span><br>
+                    <div class="account-number">
+                      <span id="copy-icon" class="fas fa-copy copy-icon" onclick="copyToClipboard()">1310649130</span><br>
+                    </div>
+                    <span>ZENITH BANK<br>LITTLE WOOD RECRUITMENT SERVICES</span>
+                  </div>
+                  </div>
+                    <!--<label class="upload" for="upload">
+                        Upload your proof of payment:
+                        <input type="file" id="upload" name="uploaded payment">
+                    </label>-->
+                     
+                    <div class="whatsapp">
+                     <h5><a id="whatsapp-link" href="https://wa.me/+2349164712004?text=My%20name%20is%20%20%20%20%20and%20this%20is%20my%20payment">Click here to send your prove of payment</a></h5>
+                  </div>
+              <div class="terms">
+            <label for="terms">I agree to the terms and conditions</label>
+  <input type="checkbox" id="terms" name="terms" required>
+        </div>
+        </section>
+
+        <section class="section-3">  
+            <section class="section-32">
+                    <h2 class="hostel">HOSTEL INFORMATION</h2>
+                    <div class="hostel-form">
+                    <div class="hostel-input">
+                      <h3>NOTE: HOSTEL FEE IS N80,000 PER SESSION</h3>
+                      <P>We are entitled to only 12 bed spaces 6 for male and 6 for female, with a well furnished kitchen and bathroom.</P>
+                    </div>
+
+
+                    <div class="hostel-input">
+                      <label for="hostel-type">Do you need the hostel?</label>
+                      <select id="hostel-type" name="Do you need the hostel?">
+                        <option value="">Select</option>
+                        <option value="male">Yes</option>
+                        <option value="female">No</option>
+                      </select>
+                    </div>
+
+
+                    <div class="hostel-input">
+                      <label for="hostel-type">Gender</label>
+                      <select id="hostel-type" name="Hostel gender">
+                        <option value="">Select gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                      </select>
+                    </div>
+                    </div>
+                    </section>
+
+                    <div class="carousel-1">
+                      <img src="HOSTEL1.jpg" alt="flyer">
+                      <img src="HOSTEL2.jpg" alt="flyer">
+                      <img src="https://th.bing.com/th/id/OIP.bs2YwOW8net8cnXrzc1lxwHaE8?w=1200&h=800&rs=1&pid=ImgDetMain" alt="flyer">
+                      <img src="https://th.bing.com/th/id/OIP.PDmbKT3yHFoak_EsshxZCQHaE8?w=3840&h=2560&rs=1&pid=ImgDetMain" alt="flyer">
+                      <img src="https://www.meininger-hotels.com/fileadmin/_processed_/a/7/csm_3638-meininger-milano-lambrate-familienzimmer_10158b60b5.jpg" alt="flyer">
+                      <img src="https://th.bing.com/th/id/OIP.0FeBL--JVdqC7U0Ic0vSNwHaE8?pid=ImgDet&w=474&h=316&rs=1" alt="flyer">
+                    </div>
+                    <div class="swipe">
+                      <P>swipe left and right to view</P>
+                    </div>
+          </section>
+    </main>
+      <div class="button-content">
+    <button type="button" id="draft-button">Save Draft</button>
+    <button type="submit">Submit</button>
+</div>
+    </form>
+
+  
+
+    <script>
+      const arrowHeads = document.querySelectorAll('ul li span:first-child');
+
+arrowHeads.forEach((arrowHead) => {
+arrowHead.addEventListener('click', () => {
+  const header = arrowHead.parentNode.nextElementSibling;
+  header.classList.toggle('hidden');
+  arrowHead.textContent = arrowHead.textContent === '▼'? '▲' : '▼';
+});
+});
+
+const carouselImages = document.querySelectorAll('.carousel img');
+const carousel1Images = document.querySelectorAll('.carousel-1 img');
+
+carouselImages.forEach((image) => {
+  image.addEventListener('click', () => {
+    image.classList.toggle('scaled');
+  });
+});
+
+carousel1Images.forEach((image) => {
+  image.addEventListener('click', () => {
+    image.classList.toggle('scaled');
+  });
+});
+
+(function() {
+document.getElementById('date-of-birth').setAttribute('max', getMaxDateOfBirth());
+})();
+
+function getMaxDateOfBirth() {
+var today = new Date();
+var maxDate = new Date(today);
+maxDate.setFullYear(maxDate.getFullYear() - 18);
+
+// Format the date to be in YYYY-MM-DD format (as required by max attribute of input type date)
+var year = maxDate.getFullYear();
+var month = (maxDate.getMonth() + 1).toString().padStart(2, '0');
+var day = maxDate.getDate().toString().padStart(2, '0');
+
+var maxDateFormatted = year + "-" + month + "-" + day;
+return maxDateFormatted;
+}
+
+function copyToClipboard() {
+const accountNumber = document.getElementById("copy-icon");
+if (navigator.clipboard) {
+  navigator.clipboard.writeText(accountNumber.textContent).then(
+    () => {
+      alert("Account number copied to clipboard!");
+    },
+    () => {
+      alert("Failed to copy account number to clipboard.");
+    }
+  );
+} else {
+  const range = document.createRange();
+  range.selectNodeContents(accountNumber);
+  const selection = window.getSelection();
+  selection.removeAllRanges();
+  selection.addRange(range);
+  const success = document.execCommand("copy");
+  if (success) {
+    alert("Account number copied to clipboard!");
+  } else {
+    alert("Failed to copy account number to clipboard.");
+  }
+  selection.removeAllRanges();
+}
+}
+
+const whatsappLink = document.getElementById('whatsapp-link');
+  const nameInput = document.getElementById('name1');
+
+  nameInput.addEventListener('input', () => {
+    const userName = nameInput.value.trim();
+    const whatsappText = `My name is ${userName} and this is my payment`;
+    whatsappLink.href = `https://wa.me/09164712004?text=${encodeURIComponent(whatsappText)}`;
+  });
+
+  </script>
+
+    </body>
+
+    <footer class="footer">
+      <div class="footer-content">
+          <div class="footer-column">
+              <h3>Contact Us</h3>
+              <ul>
+                  <li><a href="littlewood@gmail.com">littlewoodglobal@gmail.com</a></li>
+                  <li> <i class="fab fa-whatsapp"> </i> <a id="whatsapp-link" href="https://wa.me/+2349164712004">+2349164712004</a></li>
+                  <li> <i class="fas fa-phone"> </i> <a href="tel:+2348037202227">+2348037202227</a></li>
+                  <li> <i class="fas fa-phone"> </i> <a href="tel:+2348140011032">+2348140011032</a></li>
+                  <li> <i class="fas fa-phone"> </i> <a href="tel:+2348173135798">+2348173135798</a></i></li><br>
+                  <i class="fas fa-map-marker-alt"></i>
+<li>Our Office is located at: 
+  <a href="https://www.google.com/maps/dir/?api=1&destination=HOGIC+HOUSE%2C+Anyasador+Close%2C+Behind+unique+Superstore%2C+Opp.+3+Sons+Fueling+Station+By+Reservoir+Bus+Stop%2C+Egbu+Owerri" target="_blank">
+    HOGIC HOUSE, Anyasador Close, Behind unique Superstore, Opp. 3 Sons Fueling Station By Reservoir Bus Stop Egbu Owerri.
+  </a>
+</li>
+
+                    <div class="lead-sponsor">
+                      <h5><i class="fas fa-handshake"></i> Lead Sponsor:</h5>
+                      <p>Little Wood Recruitment Services</p>
+                  </div>
+              </ul>
+          </div>
+          <!--<div class="footer-column">
+              <h3>Follow Us</h3>
+              <ul class="social-icons">
+                  <li><a href="https://www.facebook.com/cgii"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="https://twitter.com/cgii"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="https://www.instagram.com/cgii"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://www.linkedin.com/company/cgii"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+          </div>-->
+      </div>
+      <div class="footer-copyright">
+          <p>&copy; 2023 Caregivers Training/Internship Institute. All rights reserved.</p>
+      </div>
+  </footer>
+</html>
