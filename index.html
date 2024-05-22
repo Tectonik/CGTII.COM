@@ -314,6 +314,42 @@ margin-top: -1.25rem;
 .section-2 h4 {
     font-size: 1.125rem;
 }
+        
+.medical-form-2,
+.medical-form {
+  font-family: Arial, sans-serif;
+  max-width: 500px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  background-color: #f9f9f9; 
+  border-radius: 5px; 
+}  
+        
+.medical-form-2 {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  /*background-image: linear-gradient(45deg, #7BB37E, #66c2a5);*/
+}
+        
+.medical-form h2 { 
+  margin-top: 0; 
+  font-size: 35px;
+  text-align: center;
+} 
+        
+.medical-form label { 
+  display: block; 
+  margin-top: 10px; 
+}  
+        
+.medical-form select,
+.medical-form textarea, 
+.medical-form input[type="text"] { 
+  width: 95%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+}
 
 .section-3 {
   background-image: linear-gradient(55deg, #83abfc, #bdd2fc);
@@ -790,6 +826,54 @@ button#draft-button:hover {
         <label for="state"></label>
         <input type="text" id="state" name="State of origin" placeholder="Enter your state" required>
         </div>
+
+             <div class="gender"> 
+ 
+            <h4>LECTURE SESSION</h4> 
+ 
+            <P>select your preferred session</P> 
+        <label for="Session"></label> 
+        <select id="Session" name="Lecture Session" required> 
+            <option value="">select</option> 
+            <option value="morning session">Morning session</option> 
+            <option value="Afternoon session">Afternoon Session</option> 
+        </select> 
+    </div> 
+    </section> 
+ 
+<section class="medical-form-2"> 
+<section class="medical-form"><h2>Medical Information</h2> 
+ 
+<label for="blood-group">Blood Group:</label> <select id="blood-group" name="blood-group" required>  
+<option value="">Select</option>  
+<option value="A+">A+</option>  
+<option value="A-">A-</option> 
+<option value="B+">B+</option>  
+<option value="B-">B-</option>  
+<option value="AB+">AB+</option>  
+<option value="AB-">AB-</option>  
+<option value="O+">O+</option>  
+<option value="O-">O-</option> 
+</select> 
+ 
+<label for="food-allergy">Food Allergies:</label> 
+<textarea id="food-allergy" name="food-allergy" rows="2" placeholder="if none write (NONE)" required></textarea> 
+ 
+<label for="medication-allergy">Medication Allergies:</label> 
+<textarea id="medication-allergy" name="medication-allergy" rows="2" placeholder="if none write (NONE)" required></textarea> 
+ 
+<label for="environmental-allergy">Environmental Allergies:</label> 
+<textarea id="environmental-allergy" name="environmental-allergy" rows="2" placeholder="if none write (NONE)" required></textarea> 
+ 
+<label for="other-allergy">Other Allergies:</label> 
+<textarea id="other-allergy" name="other-allergy" rows="2" placeholder="if none write (NONE)" required></textarea> 
+ 
+<div class="underlying"><h4>Underlying Conditions:</h4> 
+<p>(Any Sickness?)</p></div> 
+<label for="underlying-conditions"></label> 
+<textarea id="underlying-conditions" name="underlying-conditions" rows="2" placeholder="if none write (NONE)" required></textarea> 
+ 
+    </section>  
     </section>
 
         <section class="section-2">
